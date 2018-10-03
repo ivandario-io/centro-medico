@@ -1,0 +1,90 @@
+body {
+   background-color:#D1E0E7;
+   background-size: cover;
+   padding:0px 0px 0px 0px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 100%;
+}
+.singup{
+  width: 30%;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.singup h3 {
+  font-size: 27px;
+  font-weight: 300;
+  color: #fff;
+  background: #0EA7E7;
+  padding: 20px 0px;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 3px solid #EA484E;
+}
+.signup-main {
+  padding: 30px 30px 25px 30px;
+  text-align: center;
+}
+.signup-main input[type="date"] {
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #CCCACA;
+  padding: 13px 10px;
+  border: 2px solid #C9C9C9;
+  margin: 0px 30px 20px 0px;
+  width: 40%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-appearance: none;
+}
+ .signup-main input[type="text"] {
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #CCCACA;
+  padding: 13px 10px;
+  border: 2px solid #C9C9C9;
+  margin: 0px 30px 20px 0px;
+  width: 40%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-appearance: none;
+}
+.signup-main input.fecha[type="date"] {
+  margin: 0px 0px 20px 0px;
+  width: 94%;
+}
+.signup-main input.cuadro[type="text"] {
+  width: 94%;
+  margin: 0px 0px 25px 0px;
+} 
+
+.signup-main input.sexo[type="enum"] {
+  width: 94%;
+  margin: 0px 0px 25px 0px;
+} 
+.signup-main input[type="submit"] {
+  background: #EA484E;
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 300;
+  padding: 10px 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: 0px 0px 5px 0px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  outline:none;
+}
+.signup-main input[type="submit"]:hover {
+  background:#0EA7E7;
+}
+
